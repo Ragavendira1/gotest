@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ragavgo"
+  links:
+    - url: https://34.30.205.164:30000
+      title: App
+      icon: dashboard
+  annotations:
+    github.com/project-slug: samgabrail/ragavgo
+    backstage.io/kubernetes-id: ragavgo
+    argocd/app-name: ragavgo
+  description: ragavgo running on Kubernetes
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
